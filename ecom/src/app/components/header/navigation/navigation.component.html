@@ -1,0 +1,24 @@
+<nav>
+    <div class="navLinks">
+        <div class="navContent" (mouseover)="showMenu()" (mouseout)="hideMenu()">
+            <a>MEN</a>
+            <app-dropdown show="{{show}}"></app-dropdown>
+        </div>
+        <div class="navContent">
+            <a>WOMEN</a>
+            <app-dropdown></app-dropdown>
+        </div>
+        <div class="navContent">
+            <a>KIDS</a>
+            <app-dropdown></app-dropdown>
+        </div>
+        <div class="navContent">
+            <a>HOME AND LIVING</a>
+            <app-dropdown></app-dropdown>
+        </div>
+        <div class="navContent">
+            <a>DISCOVER</a>
+            <app-dropdown></app-dropdown>
+        </div>
+    </div>
+</nav>

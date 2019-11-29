@@ -1,0 +1,143 @@
+.desktop-list {
+    line-height: 20px;
+    text-decoration: none;
+    color: #282C3F;
+    font-family: Whitney;
+}
+
+.desktop-listContainer {
+    line-height: 25px;
+    width: 230px;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+
+.desktop-backdropStyle {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.desktop-backdropStyle2 {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+    visibility: visible;
+    pointer-events: none;
+}
+
+.desktop-paneContent {
+    visibility: hidden;
+    text-align: left;
+    opacity: 0;
+    left: 50%;
+    margin-left: -570px;
+    height: 440px;
+    position: absolute;
+    top: 0px;
+    width: 1135px;
+    background-color: #FFFFFF;
+    /* rgba(253,253,253,0.98) */
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+    pointer-events: auto;
+}
+
+.desktop-oddColumnContent {
+    float: left;
+    display: block;
+    position: relative;
+    height: 436px;
+    padding-top: 4px;
+}
+
+.desktop-evenColumnContent {
+    background-color: rgba(245, 245, 246, 0.4);
+}
+
+.desktop-categoryContainer {
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto;
+    width: 1110px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0px 10px 10px 15px;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.desktop-navBlock {
+    display: block;
+    position: relative;
+    float: left;
+    width: 216px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.desktop-navBlock > li {
+    padding-left: 25px;
+}
+
+.desktop-tab {
+    margin: 0px;
+}
+
+.desktop-categoryName {
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #3E4152;
+    padding: 12px 0 2px;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 25px;
+    font-family: Whitney-SemiBold, Whitney;
+    font-weight: 500;
+}
+
+.desktop-categoryLink {
+    display: block;
+    text-decoration: none;
+    color: #282C3F;
+    line-height: 23px !important;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Whitney;
+}
+
+.desktop-categoryLink:hover {
+    font-weight: 500;
+    color: #282C3F;
+}
+
+.desktop-tab {
+    -webkit-transition: left 0.2s ease-out, width 0.2s ease-out;
+    -o-transition: left 0.2s ease-out, width 0.2s ease-out;
+    -moz-transition: left 0.2s ease-out, width 0.2s ease-out;
+    transition: left 0.2s ease-out, width 0.2s ease-out;
+}

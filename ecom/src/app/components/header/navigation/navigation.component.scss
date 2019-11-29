@@ -1,0 +1,14 @@
+.navLinks {
+    display: flex;
+    align-items: center;
+    & .navContent {
+        color:#333;
+        font-size: 15px;
+        border-bottom: 3px solid transparent;
+        padding: 20px 10px;
+        &:hover {
+            border-color: violet;
+            cursor: pointer;
+        }
+    }
+}
