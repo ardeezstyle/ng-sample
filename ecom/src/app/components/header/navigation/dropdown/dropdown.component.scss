@@ -13,19 +13,50 @@
     width: 60vw;
     margin: 0 auto;
     background: #ffffff;
+    padding: 0px 10px 25px 10px;
+    box-shadow: 0 -4px 12px 0 rgba(0, 0, 0, 0.05);
 
     .column {
       flex-grow: 1;
-
+      .desktop-categoryName {
+        display: block;
+        font-size: 14px;
+        text-transform: capitalize;
+        text-decoration: none;
+        color:#ee5f73;
+        padding: 12px 0 2px 25px;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        line-height: 25px;
+        font-family: Whitney-SemiBold, Whitney;
+        font-weight: bold;
+        margin: 0;
+      }
       ul {
         margin: 0;
         list-style: none;
-
-
-        li {
-          padding: 12px;
+        padding: 0;
+        li.desktop-categoryLink {
+          display: block;
+          text-decoration: none;
+          color: #282C3F;
+          line-height: 23px !important;
+          padding-left: 25px;
+          font-size: 14px;
+          font-weight: 400;
+          font-family: Whitney;
+          text-transform: capitalize;
+          &:hover {
+            font-weight: bold;
+            color: #282C3F;
+          }
         }
       }
     }
   }
 }
+
+
+
