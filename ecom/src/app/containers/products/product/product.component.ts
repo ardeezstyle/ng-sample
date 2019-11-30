@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnChanges, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
@@ -7,12 +7,19 @@ import {ActivatedRoute, Router} from "@angular/router";
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent implements OnInit {
-  p_id: number;
+  category: string;
+  subCategory: string;
+
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.route.params.subscribe(param => {
+      this.category = param.category;
+      this.subCategory = param.subCategory;
 
-    this.p_id = +this.route.snapshot.paramMap.get('id');
+
+      console.log(this.category);
+      console.log(this.subCategory);
+    });
   }
-
 }

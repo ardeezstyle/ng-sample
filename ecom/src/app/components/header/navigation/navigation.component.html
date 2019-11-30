@@ -1,23 +1,23 @@
 <nav>
     <div class="navLinks">
         <div class="navContent" (mouseenter)="showMenu('Men')">
-            <a>Men</a>
+            <a routerLink="/product/men">Men</a>
             <app-dropdown *ngIf="showMen" (hideDropdown)="hideMenu($event)" [columns]="columns_men"></app-dropdown>
         </div>
         <div class="navContent" (mouseenter)="showMenu('Women')">
-            <a>Women</a>
+            <a routerLink="/product/women">Women</a>
             <app-dropdown *ngIf="showWomen" (hideDropdown)="hideMenu($event)" [columns]="columns_women"></app-dropdown>
         </div>
         <div class="navContent" (mouseenter)="showMenu('Kids')">
-            <a>Kids</a>
+            <a routerLink="/product/kids">Kids</a>
             <app-dropdown *ngIf="showKids" (hideDropdown)="hideMenu($event)" [columns]="columns_kids"></app-dropdown>
         </div>
         <div class="navContent" (mouseenter)="showMenu('Home')">
-            <a>Home & Living</a>
+            <a routerLink="/product/home-&-living">Home & Living</a>
             <app-dropdown *ngIf="showHome" (hideDropdown)="hideMenu($event)" [columns]="columns_home"></app-dropdown>
         </div>
         <div class="navContent" (mouseenter)="showMenu('Discover')">
-            <a>Discover</a>
+            <a routerLink="discover">Discover</a>
             <app-dropdown *ngIf="showDiscover" (hideDropdown)="hideMenu($event)" [columns]="columns_discover"></app-dropdown>
         </div>
     </div>

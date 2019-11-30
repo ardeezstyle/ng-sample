@@ -16,6 +16,7 @@ export class NavigationComponent implements OnInit {
 
   columns_men = [
     {
+      name: 'Men',
       sections: [
         {
           heading: 'Topwear',
@@ -41,6 +42,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Men',
       sections: [
         {
           heading: 'Bottomwear',
@@ -66,6 +68,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Men',
       sections: [
         {
           heading: 'Footwear',
@@ -91,6 +94,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Men',
       sections: [
         {
           heading: 'Sports & Active Wear',
@@ -117,6 +121,7 @@ export class NavigationComponent implements OnInit {
   ];
   columns_women = [
     {
+      name: 'Women',
       sections: [
         {
           heading: 'Topwear',
@@ -141,6 +146,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Women',
       sections: [
         {
           heading: 'Bottomwear',
@@ -164,6 +170,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Women',
       sections: [
         {
           heading: 'Footwear',
@@ -189,6 +196,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Women',
       sections: [
         {
           heading: 'Sports & Active Wear',
@@ -215,6 +223,7 @@ export class NavigationComponent implements OnInit {
   ];
   columns_kids = [
     {
+      name: 'Kids',
       sections: [
         {
           heading: 'Topwear',
@@ -240,6 +249,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Kids',
       sections: [
         {
           heading: 'Bottomwear',
@@ -265,6 +275,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Kids',
       sections: [
         {
           heading: 'Footwear',
@@ -290,6 +301,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Kids',
       sections: [
         {
           heading: 'Sports & Active Wear',
@@ -316,6 +328,7 @@ export class NavigationComponent implements OnInit {
   ];
   columns_home = [
     {
+      name: 'Home & Living',
       sections: [
         {
           heading: 'Bed Linen & Furnishing',
@@ -341,6 +354,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Home & Living',
       sections: [
         {
           heading: 'Home Décor',
@@ -366,6 +380,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Home & Living',
       sections: [
         {
           heading: 'Kitchen & Table',
@@ -391,6 +406,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Home & Living',
       sections: [
         {
           heading: 'Brands',
@@ -417,6 +433,7 @@ export class NavigationComponent implements OnInit {
   ];
   columns_discover = [
     {
+      name: 'Discover',
       sections: [
         {
           heading: 'Brands For Him',
@@ -442,6 +459,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Discover',
       sections: [
         {
           heading: 'Trends For Him',
@@ -467,6 +485,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Discover',
       sections: [
         {
           heading: 'Footwear',
@@ -492,6 +511,7 @@ export class NavigationComponent implements OnInit {
     },
 
     {
+      name: 'Discover',
       sections: [
         {
           heading: 'Sports & Active Wear',
