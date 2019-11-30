@@ -10,6 +10,7 @@ import { ProductComponent } from './containers/products/product/product.componen
 import { HeaderComponent } from './components/header/header.component';
 import { NavigationComponent } from './components/header/navigation/navigation.component';
 import { DropdownComponent } from './components/header/navigation/dropdown/dropdown.component';
+import { TilesComponent } from './components/tiles/tiles.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DropdownComponent } from './components/header/navigation/dropdown/dropd
     ProductComponent,
     HeaderComponent,
     NavigationComponent,
-    DropdownComponent
+    DropdownComponent,
+    TilesComponent
   ],
   imports: [
     BrowserModule,
