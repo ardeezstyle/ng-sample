@@ -1,4 +1,4 @@
-<app-header name="Products"></app-header>
+
 <div *ngIf="prods.length === 0">Loading....</div>
 <ul>
   <li *ngFor="let product of prods"><a routerLink="/product/{{product.id}}">{{product.id}}: {{product.name}}</a> <span (click)="delete(product.id)">X</span></li>

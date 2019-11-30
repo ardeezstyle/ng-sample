@@ -5,7 +5,7 @@
       <div *ngFor="let section of column.sections">
         <h2>{{section.heading}}</h2>
         <ul>
-          <li *ngFor="let link of section.links">
+          <li *ngFor="let link of section.links" (click)="showProducts(link.label)">
             {{link.label}}
           </li>
         </ul>
