@@ -5,7 +5,7 @@
       <div *ngFor="let section of column.sections">
         <h2 class="desktop-categoryName">{{section.heading}}</h2>
         <ul>
-          <li class="desktop-categoryLink" *ngFor="let link of section.links">
+          <li class="desktop-categoryLink" *ngFor="let link of section.links" (click)="showProducts(link.label)">
             {{link.label}}
           </li>
         </ul>
